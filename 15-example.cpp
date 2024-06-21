@@ -3,15 +3,13 @@
 using  namespace std;
 
 int main(){
-	int s,l,p = 3.14;
-	cout<<"Uzunlikni kiriting : ";
-	cin>>l;
+	float s,p = 3.14;
 	cout<<"Yuzasini kiriting : ";
 	cin>>s;
-	
-	int d,r;
-	d = 2*l/2*p;
+	float d,r,l;
 	r = sqrt(s/p);
+	l = 2 * p * r;
+	d = 2*l/2*p;
 	cout<<"Diametri = "<<d<<endl;
 	cout<<"Radiusi = "<<r;
 }
